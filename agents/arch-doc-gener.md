@@ -1,6 +1,6 @@
 ---
-name: architecture-doc-generator
-description: Use this agent when you need to generate comprehensive architecture documentation from an existing codebase for architecture reviews or security reviews. This agent excels at analyzing code structure, identifying architectural patterns, and creating visual representations using Mermaid diagrams or Excalidraw charts. <example>Context: The user needs architecture documentation for a review meeting.\nuser: "Generate an architecture document for our microservices system"\nassistant: "I'll use the architecture-doc-generator agent to analyze your codebase and create comprehensive documentation with diagrams."\n<commentary>\nSince the user needs architecture documentation for review purposes, use the architecture-doc-generator agent to analyze the code and create visual documentation.\n</commentary>\n</example>\n<example>Context: The user is preparing for a security review.\nuser: "We have a security review next week, can you document our system architecture?"\nassistant: "I'll use the architecture-doc-generator agent to create detailed architecture documentation with security-focused diagrams for your review."\n<commentary>\nThe user needs architecture documentation specifically for a security review, so the architecture-doc-generator agent is the appropriate choice.\n</commentary>\n</example>
+name: arch-doc-gener
+description: gen arch doc
 color: pink
 ---
 

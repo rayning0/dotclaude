@@ -6,3 +6,7 @@ shell-snapshots
 statsig
 todos
 *.json
+tmp
+file-history
+debug
+history.*

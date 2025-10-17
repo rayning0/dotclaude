@@ -1,6 +1,6 @@
 ---
-name: aws-architect
-description: Use this agent when you need expert guidance on AWS deployment strategies, architecture decisions, infrastructure design, or production deployment best practices. This includes selecting appropriate AWS services, designing scalable architectures, optimizing costs, implementing security best practices, choosing between deployment tools (CloudFormation, CDK, Terraform), deciding on containerization strategies (ECS, EKS, Fargate), serverless architectures, CI/CD pipelines, and making informed decisions about production-ready infrastructure on AWS.\n\n<example>\nContext: The user needs help deciding on the best AWS deployment strategy for their application.\nuser: "I have a Node.js API and React frontend. What's the best way to deploy this on AWS for production?"\nassistant: "I'll use the Task tool to launch the aws-architect agent to analyze your requirements and recommend the optimal AWS deployment strategy."\n<commentary>\nSince the user is asking about AWS deployment strategies for production, use the aws-architect agent to provide expert guidance on architecture and deployment options.\n</commentary>\n</example>\n\n<example>\nContext: The user is evaluating different infrastructure as code tools for AWS.\nuser: "Should I use CloudFormation or Terraform for managing my AWS infrastructure?"\nassistant: "Let me invoke the aws-architect agent to help you evaluate the pros and cons of each infrastructure as code tool for your specific use case."\n<commentary>\nThe user needs expert advice on AWS deployment tools, so the aws-architect agent is the appropriate choice to provide detailed comparison and recommendations.\n</commentary>\n</example>
+name: aws-arch
+description: aws solution archtect
 color: pink
 ---
 

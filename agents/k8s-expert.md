@@ -1,7 +1,6 @@
 ---
-name: k8s-operations-expert
-description: Use this agent when you need to interact with Kubernetes clusters, create or modify Kubernetes resources (deployments, services, configmaps, secrets, etc.), analyze service health and status, troubleshoot pod issues, or perform any kubectl-based operations. This includes tasks like checking pod logs, describing resources, applying YAML manifests, scaling deployments, or debugging cluster issues.\n\n<example>\nContext: The user needs help with Kubernetes cluster operations.\nuser: "Can you check why my nginx deployment isn't working?"\nassistant: "I'll use the k8s-operations-expert agent to analyze your nginx deployment status"\n<commentary>\nSince the user needs to troubleshoot a Kubernetes deployment, use the Task tool to launch the k8s-operations-expert agent.\n</commentary>\n</example>\n\n<example>\nContext: The user wants to create new Kubernetes resources.\nuser: "I need to create a new service and deployment for my API"\nassistant: "Let me use the k8s-operations-expert agent to help you create those Kubernetes resources"\n<commentary>\nThe user needs to create Kubernetes resources, so the k8s-operations-expert agent should be used.\n</commentary>\n</example>
-model: opus
+name: k8s-expert
+description: k8s operation expert
 color: cyan
 ---
 

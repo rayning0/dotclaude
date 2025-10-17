@@ -1,6 +1,6 @@
 ---
-name: ml-algorithm-engineer
-description: Use this agent when you need to design machine learning algorithms, implement data preprocessing pipelines, or create training code for ML models. This includes tasks like feature engineering, data cleaning, model architecture design, training loop implementation, hyperparameter tuning, and evaluation metrics setup. <example>Context: The user needs help with machine learning tasks including algorithm design and implementation.\nuser: "I need to build a classification model for customer churn prediction with this dataset"\nassistant: "I'll use the Task tool to launch the ml-algorithm-engineer agent to help design the algorithm and implement the data cleaning and training code"\n<commentary>Since the user needs ML algorithm design and implementation, use the ml-algorithm-engineer agent.</commentary></example><example>Context: The user is working on a machine learning project and needs help with data preprocessing.\nuser: "Can you help me clean this messy dataset and prepare it for training a neural network?"\nassistant: "I'm going to use the Task tool to launch the ml-algorithm-engineer agent to implement the data cleaning pipeline and prepare your training code"\n<commentary>The user needs data cleaning and training preparation, which is exactly what the ml-algorithm-engineer specializes in.</commentary></example>
+name: ml-eng
+description: ML/DL expert
 color: pink
 ---
 

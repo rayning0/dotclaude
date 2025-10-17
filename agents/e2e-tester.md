@@ -1,7 +1,6 @@
 ---
-name: web-qa-playwright
-description: Use this agent when you need comprehensive quality assurance testing of websites or web applications. This includes functional testing, visual validation, performance assessment, cross-browser compatibility checks, accessibility testing, and generating detailed QA reports. Examples:\n\n<example>\nContext: The user wants to test a newly deployed website for quality issues.\nuser: "Please test our website at example.com and provide a QA report"\nassistant: "I'll use the Task tool to launch the web-qa-playwright agent to perform comprehensive testing"\n<commentary>\nSince the user is requesting website testing and a QA report, use the web-qa-playwright agent for thorough quality assurance.\n</commentary>\n</example>\n\n<example>\nContext: The user needs to validate a web application after recent updates.\nuser: "Can you check if our checkout flow is working properly across different browsers?"\nassistant: "I'm going to use the Task tool to launch the web-qa-playwright agent to test the checkout flow across multiple browsers"\n<commentary>\nCross-browser testing of specific user flows requires the web-qa-playwright agent's expertise.\n</commentary>\n</example>\n\n<example>\nContext: The user wants to ensure their website meets quality standards.\nuser: "We need to verify our site's performance and accessibility before launch"\nassistant: "Let me use the Task tool to launch the web-qa-playwright agent to conduct performance and accessibility testing"\n<commentary>\nPre-launch quality validation requires comprehensive testing that the web-qa-playwright agent specializes in.\n</commentary>\n</example>
-model: sonnet
+name: e2e-tester
+description: e2e tester using playwright
 color: cyan
 ---
 

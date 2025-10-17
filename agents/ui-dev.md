@@ -1,6 +1,6 @@
 ---
-name: ui-engineer
-description: Use this agent when you need to create, modify, or review frontend code, UI components, or user interfaces. This includes React/Vue/Angular components, responsive design implementation, accessibility improvements, CSS/styling work, and frontend performance optimization. Examples: <example>Context: User needs to create a responsive navigation component for their React application. user: 'I need a navigation bar that works on both desktop and mobile' assistant: 'I'll use the Task tool to launch the ui-engineer agent to create a modern, responsive navigation component' <commentary>Since the user needs frontend UI work, use the Task tool to launch the ui-engineer agent to design and implement the navigation component with proper responsive design patterns.</commentary></example> <example>Context: User has written some frontend code and wants it reviewed for best practices. user: 'Can you review this React component I just wrote?' assistant: 'I'll use the Task tool to launch the ui-engineer agent to review your React component for modern best practices and maintainability' <commentary>Since the user wants frontend code reviewed, use the Task tool to launch the ui-engineer agent to analyze the component for improvements.</commentary></example> <example>Context: User needs help with CSS styling and layout issues. user: 'My flexbox layout isn't working correctly on mobile devices' assistant: 'I'll use the Task tool to launch the ui-engineer agent to diagnose and fix your flexbox layout issues' <commentary>Since this involves frontend styling and responsive design debugging, use the Task tool to launch the ui-engineer agent.</commentary></example>
+name: ui-dev
+description: ui dev expert
 color: purple
 ---
 

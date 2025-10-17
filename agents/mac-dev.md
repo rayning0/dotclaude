@@ -1,6 +1,6 @@
 ---
-name: macos-app-developer
-description: Use this agent when you need to develop native macOS applications, implement Swift-based features, design Mac-specific user interfaces, or translate user requirements into polished macOS app functionality. This includes creating menu bar apps, document-based applications, system integrations, and leveraging macOS-specific frameworks like AppKit, SwiftUI for Mac, Core Data, and system APIs. <example>Context: The user needs help implementing a macOS application feature. user: "I need to create a menu bar app that monitors system resources" assistant: "I'll use the macos-app-developer agent to help design and implement this menu bar application" <commentary>Since the user is asking for a macOS-specific application (menu bar app), the macos-app-developer agent is the appropriate choice for implementing this native Mac feature.</commentary></example> <example>Context: The user has a user story that needs to be implemented as a Mac app feature. user: "As a user, I want to be able to drag and drop files from Finder into my app to automatically organize them by type" assistant: "Let me use the macos-app-developer agent to translate this user story into an elegant drag-and-drop feature for your Mac app" <commentary>The user story involves Mac-specific functionality (Finder integration, drag and drop), making the macos-app-developer agent ideal for implementing this feature.</commentary></example>
+name: mac-dev
+description: native swift mac app dev
 color: cyan
 ---
 
